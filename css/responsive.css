@@ -1,0 +1,362 @@
+@media screen and (orientation:landscape) {
+  .orient{
+      visibility:hidden;
+  }
+}
+@media screen and (orientation:portrait) {
+    .subtextmobile{
+        display: none!important;
+    }
+
+   html{
+       overflow: hidden;
+  }
+   .orient{
+       visibility:visible;
+  }
+
+  
+}
+
+@media screen and (max-width: 1280px) {
+    .planePaperClick img{
+        width:80%;
+        margin-top: 20%;
+        margin-left:-15%;
+      }
+
+
+
+/*================================= labtop =================================*/
+@media screen and (min-width: 1024px) {
+   .orient{
+       visibility:hidden;
+  }
+  .nav-toggle-label{
+    opacity: 0!important;
+  }
+  
+}
+/*================================= ipad =================================*/
+@media screen and (max-width: 1024px) {
+   .describe,.c2-01.bg,.c2-02 .bg,.c2-03 .bg,.c3-01 .bg,.c3-02 .bg,.c3-03 .bg,.c4-01 .bg,.c4-02 .bg,.c4-03 .bg{
+       width: 100vw;
+       height: 100vh;
+       max-height: 100vh;
+  }
+   #triggerB1 .webtextCenter, #triggerB5_2 .webtextCenter, #triggerB9 .webtextCenter, .c403_bPin1 .webtextCenter{
+       font-size: 1.5em;
+  }
+   .fontAlpha{
+       font-size: 1.3em;
+  }
+   .HomeCursor{
+       margin-top: 2%;
+  }
+   .HomeCursor .click{
+       margin-left:45%;
+       position: relative;
+       top:40%;
+       width: 10%;
+       display: block;
+       font-family: sarabun;
+       font-size: 1em;
+  }
+   .icon-scroll{
+       width: 28px;
+       height: 56px;
+       top: 88%;
+       left: 49%;
+       text-align: center;
+  }
+
+   .icon-scroll span{
+       margin-left: -35%;
+  }
+   .subTextHome h7{
+       display: block;
+       margin-top:75%;
+  }
+   .describe{
+       top: -1%;
+  }
+   .dot1{
+       font-size: 0.01em;
+  }
+  .orient img{
+    width: 100vw;
+    height:100vh;
+}
+.orient span{
+    top:75%;
+
+    margin-left:35%;
+    width:30%;
+}
+.orient p{
+    top:89%;
+    left: 0;
+    font-size:1em;
+}
+.orient .logo{
+    position: fixed;
+    top: 3%;
+    width: 13%;
+    height:7%;
+}
+.vocbox{
+    width: 130%;
+}
+.voc1{
+    font-size: 1.1em;
+}
+.voc2{
+    font-size: 0.8em;
+}
+.verb,.tense,.adj,.noun,.prep{
+    width: 11vw;
+}
+nav{
+    display: block;
+}
+้header{
+   opacity: 1!important;
+}
+
+
+}
+
+/*================================= Iphone10 landscape =================================*/
+@media screen and (max-width: 1023px) {
+   #triggerB1 .webtextCenter .fontAlpha > span, #triggerB5_2 .webtextCenter > span, #triggerB9 .webtextCenter .fontAlpha > span .c403_bPin1 .webtextCenter .fontAlpha > span{
+       font-size: 1.2em;
+  }
+   #triggerB1 .webtextCenter, #triggerB5_2 .webtextCenter, #triggerB9 .webtextCenter, .c403_bPin1 .webtextCenter{
+       font-size: 1em;
+       font-weight: bold;
+  }
+   .fontAlpha {
+       font-size: 1em;
+       font-weight: bold;
+  }
+   #triggerB1 .webtextCenter{
+       font-size: 1.2em;
+       font-weight: bold;
+  }
+   #triggerB5_2 .webtextCenter{
+       font-size: 1.2em;
+       font-weight: bold;
+  }
+   .trigger0_5 .webtextCenter{
+       font-size: 0.8em;
+       font-weight: bold;
+  }
+   .mainTextHome{
+       font-size: 1.8em;
+  }
+   .subTextHome{
+       font-size: 0.8em;
+  }
+   .logo img{
+       display: none;
+  }
+   .nav-toggle-label{
+       top:100%;
+       display: none;
+  }
+   .subTextHome h7{
+       display: block;
+       margin-top:23%;
+  }
+   .HomeCursor .click{
+       margin-left:40%;
+       position: relative;
+       top:40%;
+       width: 10%;
+       display: block;
+       font-family: sarabun;
+       font-size:0.8em;
+       font-weight: bold;
+  }
+   .icon-scroll{
+       width: 18px;
+       height: 36px;
+       top: 84%;
+       left: 49%;
+       text-align: center;
+  }
+   .dot1,.dot2,.dot3,.dot4,.dot5{
+       font-size: 0.5em;
+  }
+  #mute,#unmute{
+    width: 7%;
+    height: 12%;
+  }
+  .planePaperClick img{
+    width: 300px;
+    margin-top: 20%;
+    margin-left:-34%;
+  }
+  .HomeCursor{
+      margin-top: 1%;
+  }
+  .subtextmobile{
+      display: inline-block;
+  }
+  .icon-scroll span{
+      display: none;
+  }
+  .cardExampIn{
+      width: 85%;
+  }
+  .cardExampmobile{
+    display: none;
+}
+  .navRight{
+    width:8%;
+  }
+  .nav-toggle-label{
+    display: block;
+}
+.vocbox{
+    width: 110%;
+    height: 50%;
+}
+.voc1{
+    font-size: 0.8em;
+}
+.voc2{
+    font-size: 0.6em;
+}
+.verb,.tense,.adj,.noun,.prep{
+    width: 11vw;
+}
+.vocwind{
+    height:10%;
+}
+#showvoc, #unshowvoc{
+    right:11%;
+}
+nav{
+    display: block;
+}
+nav li{
+    background-color:white;
+    border-radius:4%;
+    margin:15% 1% 15% 30%;
+    width:80%;
+    padding: 4% 3% 4% 0;
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+nav li:first-child{
+    text-align: left;
+    left: 10%;
+    width: 75%;
+    padding: 1% 1% 1% 0;
+    font-size: 0.5em;
+}
+}
+/*================================= Iphone6/7/8 Plus landscape =================================*/
+@media screen and (max-width: 736px) {
+   .fontAlpha {
+       font-size: 1em;
+  }
+   #triggerB1 .webtextCenter{
+       font-size: 1em;
+  }
+   #triggerB5_2 .webtextCenter{
+       font-size: 1em;
+  }
+   .icon-scroll span{
+       left:-35%;
+  }
+   nav li{
+       width: 100%;
+  }
+   nav{
+       left: 75%;
+  }
+   nav li{
+       background-color:white;
+  }
+  .planePaperClick img{
+    width:50%;
+    margin-top: 20%;
+    margin-left:-15%;
+  }
+}
+/*================================= Iphone5 landscape =================================*/
+@media screen and (max-width:667px) {
+   .fontAlpha {
+       font-size: 0.8em;
+  }
+   #triggerB1 .webtextCenter{
+       font-size: 0.8em;
+  }
+   #triggerB5_2 .webtextCenter{
+       font-size: 0.8em;
+  }
+   nav a{
+       font-size:0.8em;
+  }
+   .icon-scroll{
+       width:13px;
+       height:30px;
+       top:85%;
+       left: 49%;
+       text-align: center;
+  }
+   .icon-scroll span{
+       left:-86%;
+       top: 90%;
+  }
+  .vocbox{
+    width: 110%;
+    height: 50%;
+}
+.voc1{
+    font-size: 0.4em;
+}
+.voc2{
+    font-size: 0.1em;
+}
+.verb,.tense,.adj,.noun,.prep{
+    width: 11vw;
+}
+.vocwind{
+    height:10%;
+}
+nav li{
+    background-color:white;
+    border-radius:4%;
+    margin:15% 1% 15% 50%;
+    width:80%;
+    padding: 2% 3% 2% 0;
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+}
+
+/*================================= Iphone4 landscape =================================*/
+@media screen and (max-width: 568px) {
+   h6{
+       text-align: center;
+  }
+   nav{
+       left: 68%;
+  }
+   nav a{
+       font-size:0.5em;
+  }
+   nav li{
+       width: 100%;
+  }
+  .trigger0_5 .webtextCenter{
+      font-size: 0.7em;
+  }
+   #triggerB1 .webtextCenter .fontAlpha > span, #triggerB5_2 .webtextCenter > span, #triggerB9 .webtextCenter .fontAlpha > span .c403_bPin1 .webtextCenter .fontAlpha > span{
+       font-size:0.8em;
+  }
+   #triggerB1 .webtextCenter, #triggerB5_2 .webtextCenter, #triggerB9 .webtextCenter, .c403_bPin1 .webtextCenter{
+       font-size: 0.8em;
+  }
+}
